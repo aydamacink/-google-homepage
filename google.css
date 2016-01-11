@@ -1,0 +1,73 @@
+body, html {
+  height: 100%;
+}
+
+.pagediv{
+	position: relative;
+ 	height: 100%;
+ 	min-height: 460px;
+}
+
+.topnav{
+	position: absolute;
+	top: 0;
+	height: 60px;
+	width: 100%;
+	min-width: 980px;
+}
+
+.navbar{
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: #404040;
+  position: absolute;
+	right: 30px;
+	top: 15px;
+}
+
+.navbar li{
+	padding-left: 15px;
+}
+
+ul, li{
+	display: inline;
+}
+
+.sign_in{
+	border: 1px solid #4285f4;
+	background-color: #4683ea;
+  font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: #fff;
+	font-weight: bold;
+	height: 30px;
+	width: 71px;
+	border-radius: 2px;
+	outline: none;
+}
+
+.navbar img{
+	padding: 0px 15px 0 15px;
+	position: relative;
+	top: 4px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:visited, a:link{
+	color: #666;
+}
+
+a img{
+	cursor: default;
+}
+
+.app:hover{
+	opacity: .7;
+}
