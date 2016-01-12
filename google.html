@@ -1,51 +1,48 @@
-<doctype html!>
+<DOCTYPE HTML!>
   <html>
   <head>
-    <meta charset="utf-8"
-    <title></title>
-    <link href="reset.css" rel="stylesheet" type="text/css">
-    <link href="google.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8"</meta>
+    <title>Google</title>
+    <link type="text/css" rel="stylesheet" href="reset.css">
+    <link type="text/css" rel="stylesheet" href="google.css">
   </head>
   <body>
     <div class="pagediv">
-      <div class="topnav">
-          <div class="navbar">
-              <ul>
-                  <li><a href="https://images.google.com/">Images</a></li>
-      		        <li><a href="https://mail.google.com">Gmail</a></li>
-              </ul>
-              <a href="#"><img src="images/app-launcher-150x150.png" class="app"></a>
-				      <input type="button" value="Sign in" class="sign_in">
-          </div>
+      <div class="top">
+        <div class="navbar">
+          <ul>
+            <li><a href="#" id="sign_in">Sign in</a></li>
+            <li><img src="images/app-launcher-150x150.png" id="app"></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">Gmail</a></li>
+          </ul>
+        </div>
       </div>
-
       <div class="center">
-        <img class="logo" src="images/Google_2015_logo.svg.png">
-          <div class="search_bar">
-            <input type="text" class="searchtext" autofocus>
-            </div>
-            <input type="button" value="Google Search" class="searchbutton">
-			      <input type="button" value="I'm Feeling Lucky" class="searchbutton">
-          <!-- <form action"#" method="POST" name="Google_Form">
-            <input type="text-area" name="search">
-          </form> -->
+        <a href="#" id="img"><img src="images/google_perrault.jpg" alt="Charles Perrault 388th Birthday Doodle"></a>
+        <div class="search_bar">
+          <input type="text" class="searchbar" autofocus>
+        </div>
+        <input type="button" value="Google Search" class="searchbutton">
+        <input type="button" value="I'm feeling lucky" class="searchbutton">
+        <p>Google.de offered in: <a href="#" id="language">Deutsch</a></p>
       </div>
-
-      <div class="bottomnav">
-        <div class="leftfooter">
-  				<ul>
-  					<li><a href="#">Advertising</a></li>
-  					<li><a href="#">Business</a></li>
-  					<li><a href="#">About</a></li>
-  				</ul>
-			  </div>
-			  <div class="rightfooter">
-				  <ul>
-					  <li><a href="#">Privacy</a></li>
+      <div class="bottom">
+        <div class="left_footer">
+          <ul>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div class="right_footer">
+          <ul>
+            <li><a href="#">Use Google.com</a></li>
+            <li><a href="#">Settings</a></li>
             <li><a href="#">Terms</a></li>
-					  <li><a href="#">Settings</a></li>
-				  </ul>
-			  </div>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
